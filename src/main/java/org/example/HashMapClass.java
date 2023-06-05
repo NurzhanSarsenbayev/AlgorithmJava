@@ -28,28 +28,6 @@ public class HashMapClass {
         System.out.println("does first index contain key? " + hashMap.containsKey(1));
         System.out.println("does third index contain value? " +hashMap.containsValue(3));
         System.out.println(hashMap);
-        // получим весь набор ключей
-//        Set<Integer> keys = hashMap.keySet();
-//        // получить набор всех значений
-//        Collection<String> values = hashMap.values();
-//        //заменить элемент
-//        hashMap.replace(1, "Poland");
-//        // удаление элемента по ключу 2
-//        // перебор элементов
-////        for(Map.Entry<Integer, String> item : hashMap.entrySet()){
-////
-////            System.out.printf("Key: %d  Value: %s \n", item.getKey(), item.getValue());
-////        }
-////
-//////        Map<String, Person> people = new HashMap<String, Person>();
-//////        people.put("1240i54", new Person("Tom"));
-//////        people.put("1564i55", new Person("Bill"));
-//////        people.put("4540i56", new Person("Nick"));
-//////
-//////        for(Map.Entry<String, Person> item : people.entrySet()){
-//////
-//////            System.out.printf("Key: %s  Value: %s \n", item.getKey(), item.getValue().getName());
-//        }
     }
 }
 
