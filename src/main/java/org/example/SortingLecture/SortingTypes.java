@@ -1,4 +1,4 @@
-package SortingLecture;
+package org.example.SortingLecture;
 
 public class SortingTypes {
     public static void main(String[] args) {
